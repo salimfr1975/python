@@ -17,12 +17,14 @@ if len(email )>=6:
                     else:
                         d=1
                 if k==1 or j==1 or d==1:
-                    print("Wrong Email 5")
+                    print("space, upper case and digit not to be used in the begining.")
+                else:
+                    print("You entered the correct Email")
             else:
-                print("Wrong Email 4")
+                print(". should be used 3rd or 4th place from last")
         else:
-            print("Wrong Email 3")
+            print("@ should be used in Email 1 time in Email")
     else:
-        print("Wrong Email 2")
+        print("The first letter of Email should start with character")
 else:
-    print("Wrong Email 1")
+    print("Your Email address is less then 6 character.")
